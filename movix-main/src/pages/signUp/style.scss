@@ -1,0 +1,72 @@
+$primary-color: dodgerblue;
+$secondary-color: #333;
+$font-color: #666;
+
+.heading {
+  text-align: center;
+  margin-bottom: 50px;
+
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: $secondary-color;
+
+    svg {
+      margin-right: 15px;
+      font-size: 1.5em;
+      vertical-align: middle;
+    }
+  }
+
+  p {
+    font-size: 18px;
+    color: $font-color;
+  }
+}
+
+.form {
+  max-width: 400px;
+  margin: 0 auto 50px;
+  padding: 0 20px;
+
+  .form-group {
+    margin-bottom: 30px;
+
+    input {
+      width: 100%;
+      padding: 15px;
+      font-size: 16px;
+      border: 2px solid lighten($primary-color, 10%);
+      border-radius: 10px;
+      transition: border-color 0.3s ease;
+
+      &:focus {
+        outline: none;
+        border-color: $primary-color;
+      }
+    }
+
+    button {
+      width: 100%;
+      padding: 15px;
+      font-size: 16px;
+      background-color: $primary-color;
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: darken($primary-color, 10%);
+      }
+    }
+  }
+}
+
+.footer {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 16px;
+  color: $font-color;
+}

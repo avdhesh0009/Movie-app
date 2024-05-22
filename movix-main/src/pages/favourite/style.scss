@@ -1,0 +1,23 @@
+.favorite-movies {
+  padding: 20px;
+  background-color: #04152d;
+  color: #333;
+
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff;
+  }
+
+  .movies-list {
+    display: flex;
+    width:70%;
+    margin:auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .movie-card {
+    margin-right: 20rem;
+  }
+}
